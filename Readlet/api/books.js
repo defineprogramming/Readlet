@@ -1,4 +1,3 @@
-```javascript
 import { MongoClient } from 'mongodb';
 import nextConnect from 'next-connect';
 
@@ -22,4 +21,3 @@ handler.post(async (req, res) => {
 });
 
 export default handler;
-```
