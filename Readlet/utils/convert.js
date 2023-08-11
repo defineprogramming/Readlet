@@ -1,4 +1,3 @@
-```javascript
 const fs = require('fs');
 const path = require('path');
 const { promisify } = require('util');
@@ -30,4 +29,3 @@ module.exports = {
   convertBook,
   deleteSourceFile,
 };
-```
