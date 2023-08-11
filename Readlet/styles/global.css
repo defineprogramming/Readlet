@@ -1,0 +1,66 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f2f1;
+    color: #323130;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Fluent Design System */
+.fluent-btn {
+    background-color: #0078d4;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+}
+
+.fluent-btn:hover {
+    background-color: #005a9e;
+}
+
+.fluent-card {
+    background-color: #ffffff;
+    box-shadow: 0px 1.6px 3.6px 0px rgba(0, 0, 0, 0.132), 0px 0.3px 0.9px 0px rgba(0, 0, 0, 0.108);
+    border-radius: 2px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.fluent-card:hover {
+    box-shadow: 0px 3.2px 7.2px 0px rgba(0, 0, 0, 0.132), 0px 0.6px 1.8px 0px rgba(0, 0, 0, 0.108);
+}
+
+.fluent-input {
+    border: none;
+    border-bottom: 1px solid #323130;
+    padding: 10px 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.fluent-input:focus {
+    outline: none;
+    border-bottom: 2px solid #0078d4;
+}

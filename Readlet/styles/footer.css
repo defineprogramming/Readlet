@@ -1,0 +1,24 @@
+/* Readlet/styles/footer.css */
+
+.footer {
+  width: 100%;
+  height: 60px;
+  background-color: #0078d4;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  font-size: 14px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.footer a:hover {
+  color: #d0d0d0;
+}
