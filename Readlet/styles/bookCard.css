@@ -1,0 +1,51 @@
+.book-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: box-shadow .3s;
+}
+
+.book-card:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.book-card .book-title {
+    font-size: 1.5em;
+    color: #24292e;
+    margin-bottom: 10px;
+}
+
+.book-card .book-author {
+    font-size: 1.2em;
+    color: #586069;
+    margin-bottom: 20px;
+}
+
+.book-card .book-description {
+    font-size: 1em;
+    color: #586069;
+    margin-bottom: 20px;
+}
+
+.book-card .book-download {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.book-card .book-download button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+.book-card .book-download button:hover {
+    background-color: #218838;
+}

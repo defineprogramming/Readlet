@@ -1,0 +1,70 @@
+/* Readlet/styles/adminPanel.css */
+
+.admin-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f3f2f1;
+    height: 100vh;
+}
+
+.admin-panel h1 {
+    font-size: 2.5em;
+    color: #323130;
+    margin-bottom: 20px;
+}
+
+.admin-panel .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.admin-panel .content .section {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.admin-panel .content .section h2 {
+    font-size: 2em;
+    color: #323130;
+    margin-bottom: 10px;
+}
+
+.admin-panel .content .section .list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.admin-panel .content .section .list .item {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #edebe9;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-panel .content .section .list .item .actions {
+    display: flex;
+    align-items: center;
+}
+
+.admin-panel .content .section .list .item .actions button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #0078d4;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.admin-panel .content .section .list .item .actions button:hover {
+    background-color: #005a9e;
+}
